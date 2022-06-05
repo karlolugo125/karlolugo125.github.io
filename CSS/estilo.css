@@ -1,0 +1,82 @@
+body {
+        background-color:#68e866;
+		font-family: courier;
+		margin: 0; 
+}
+
+header { 
+        display: flex; 
+		justify-content: space-between; 
+		min-height: 60px;
+		background-color: #36e833; 
+		align-items: center; 
+		padding: 10px;
+}
+h1 {font-size: 4.0em;}
+h2 {font-size: 2.0em;}
+
+.logotipo {
+	    display: flex; 
+		align-items: center; 
+}
+
+.logotipo img{
+	    height: 40px;
+		margin: 5px;
+}
+#texto{
+	    display: flex;
+		align-items: center; 
+		justify-content: center; 
+		text-align: center; 
+		flex-direction: column;
+		height: 85vh; 
+		color: #000000;
+		background-image: url("plastico.jpeg");
+		background-repeat: no repeat; 
+		background-size: cover; 
+		background-position: center;
+}
+#informacion{
+		font-family: calibri; 
+		font-size: 1.5em;
+		text-align: justify; 
+		margin: 30px;
+}
+#informacion h2{
+	    
+		font-family: calibri; 
+		font-size: 1.8em;
+		text-align: center;
+}
+
+
+a{
+	    text-decoration: none; 
+		color: black;
+}
+nav a {
+	    margin: 5px; 
+		font-weight: 700;
+}
+
+nav a:hover{
+	    color: #8A8A8A; 
+}
+
+@media (max-width: 700px){ 
+    header{
+		flex direcction: column;
+	}
+	
+	nav {
+		padding: 15px;
+	}
+}
+table,td, th{
+	font-size: 1em;
+	border: 3px solid green;
+	table-layout: auto;
+	border-collapse: collapse;
+	width: 100%
+}
